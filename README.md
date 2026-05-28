@@ -121,3 +121,13 @@ The application handles operational inputs through strict validation layers. The
 | **TC-006** | Fine Calculation | Checking in an overdue book (Return Date > Predefined 14-day threshold) | Activates `ChronoUnit.DAYS` calculator; dynamically multiplies extra days by `FINE_PER_DAY` and prints fine alert. | **PASSED** |
 | **TC-007** | State Continuity | Terminating the application using menu Option `8` | Triggers the `FileHandler` serialization engine, safely writing all memory objects down to `books.txt` and `members.txt`. | **PASSED** |
 | **TC-008** | Cold Boot Setup | Launching the system when local data flat-files are missing on disk | Catches `FileNotFoundException`; automatically initializes an empty database structure and creates the data folder. | **PASSED** |
+
+
+## 🎓 About the Developer
+
+Name: Gaurav Chauhan   
+
+
+Education: BCA+MCA Dual Degree, Amity University Noida (2027)   
+
+Focus: Full-Stack Development, Data Analytics, and Cloud Computing
